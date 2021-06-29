@@ -1,0 +1,143 @@
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.sumbit {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.sumbit:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+.register-heading {
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: -15%;
+  color: #405057;
+}
+.fixed-top{
+  top: 20px
+}
+.te {
+  height: 400px;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+}
+.te h1{
+  font-size: 60px;
+  font-weight: 100;
+  margin-bottom: 25px;
+}
+.te p {
+  font-size: 16px;
+}
+#about-section {
+  padding-top: 85px;
+  padding-bottom: 110px;
+}
+.about text p {
+  font-size: 16px;
+}
+#team-section{
+  padding: 50px 0;
+  background: #5385c1;
+  color: #fff;
+}
+.team-top-header h1 {
+  font-weight: 3000;
+}
+.team-member-id{
+  padding-top: 25px;
+}
+.team-member-id.text-center img{
+  width: 100px;
+  height: 100px;
+}
+.team-member-id.text-center h1 {
+  font-size: 18px;
+  font-weight: 300;
+}
+#recent-section{
+  padding: 50px 0;
+}
+.recent-text h1 {
+  font-weight: 300;
+  font-size: 25px;
+}
+.account-wall{
+  margin-top: 20px;
+  padding:40px 0px 20px 0px;
+  background: #f7f7f7;
+  -moz-border-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-border-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.login-title {
+  color: #555;
+  font-size: 18px;
+  font-weight: 400;
+  display: block;
+}
+.profile-img{
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+
+}
+.need-help{
+  margin-top: 10px;
+}
+.new-account {
+  display: block;
+  margin-top: 10px;
+}
